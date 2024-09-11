@@ -1,5 +1,7 @@
 # Building Extraction using YOLO based Instance Segmentation
 
+#### By [Yi Jie WONG](https://github.com/yjwong1999) et al
+
 This code is part of our solution for 2024 IEEE BigData Cup: Building Extraction Generalization Challenge (BEGC).
 
 ## Instructions
