@@ -78,6 +78,8 @@ pip install opendatasets==0.1.22
     </tr>
 </table>
 
+Refer [our segmentation-guided diffusion model](https://github.com/yjwong1999/RSGuidedDiffusion) to see how we implement our diffusion augmentation pipeline.
+
 ## Acknowledgement
 We thank the following works for the inspiration of our repo!
 1. 2024 IEEE BigData Cup: Building Extraction Generalization Challenge [link](https://www.kaggle.com/competitions/building-extraction-generalization-2024/overview)
