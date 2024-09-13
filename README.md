@@ -4,7 +4,7 @@
 
 #### By [Yi Jie WONG](https://github.com/yjwong1999) & [Yin Look Khor](https://www.linkedin.com/in/yinloonkhor/) et al
 
-This code is part of our solution for [2024 IEEE BigData Cup: Building Extraction Generalization Challenge (IEEE BEGC2024)](https://www.kaggle.com/competitions/building-extraction-generalization-2024/overview). Specifically, this repository provides the code to extract additional building footprint data from the Microsoft Building Footprint (BF) dataset for Redmond, Washington, and Las Vegas, Nevada. We use the extracted dataset to train our YOLOv8-based instance segmentation model, along with the training set provided by the IEEE BEGC2024 dataset. Results show that YOLOv8 trained on BEGC2024 with the additional dataset achieves a significant F1-score improvement compared to training on the BEGC2024 training set alone.
+This code is part of our solution for [2024 IEEE BigData Cup: Building Extraction Generalization Challenge (IEEE BEGC2024)](https://www.kaggle.com/competitions/building-extraction-generalization-2024/overview). Specifically, this repository provides the code to extract additional building footprint data from the Microsoft Building Footprint (BF) dataset for Redmond, Washington, and Las Vegas, Nevada. We use the extracted dataset to train our YOLOv8-based instance segmentation model, along with the training set provided by the IEEE BEGC2024 dataset. Results show that YOLOv8 trained on BEGC2024 with the additional dataset achieves a significant F1-score improvement compared to training on the BEGC2024 training set alone. Our approach ranked 1st globally in the IEEE Big Data Cup 2024 - BEGC2024 challenge! 🏅🎉🥳
 
 ## Instructions
 Conda environment
