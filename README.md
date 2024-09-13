@@ -168,7 +168,7 @@ Refer [our segmentation-guided diffusion model](https://github.com/yjwong1999/RS
   <thead>
     <tr>
       <th rowspan="2">Dataset</th>
-      <th colspan="6">Private F1 Score (using different NMS IoU Threshold)</th>
+      <th colspan="6">Private F1 Score</br>(using different NMS IoU Threshold)</th>
     </tr>
     <tr>
       <th>0.70</th>
