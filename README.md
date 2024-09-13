@@ -37,6 +37,8 @@ pip install opendatasets==0.1.22
 ```
 
 ## Results
+
+### Training with Different Dataset
 <table border="1">
     <tr>
         <th rowspan=2></th>
@@ -78,6 +80,7 @@ pip install opendatasets==0.1.22
     </tr>
 </table>
 
+### Inference with Different NMS IoU Threshold 
 <table border="1" cellpadding="10" cellspacing="0">
   <thead>
     <tr>
