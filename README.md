@@ -36,6 +36,48 @@ pip install click==8.1.7
 pip install opendatasets==0.1.22
 ```
 
+## Results
+<table border="1">
+    <tr>
+        <th rowspan=2></th>
+        <th colspan="2">F1 Score</th>
+    </tr>
+    <tr>
+        <th>Public</th>
+        <th>Private</th>
+    </tr>
+    <tr>
+        <td>BEGC2024 dataset</td>
+        <td>0.64926</td>
+        <td>0.66331</td>
+    </tr>
+    <tr>
+        <td>BEGC2024 dataset + Washington dataset</td>
+        <td>0.65961</td>
+        <td>0.67153</td>
+    </tr>
+    <tr>
+        <td>BEGC2024 dataset + Las Vegas dataset</td>
+        <td>0.68627</td>
+        <td>0.70326</td>
+    </tr>
+    <tr>
+        <td>BEGC2024 dataset + Diffusion Augmentation</td>
+        <td>0.67189</td>
+        <td>0.68096</td>
+    </tr>
+    <tr>
+        <td>Second place (unknown model/dataset)</td>
+        <td>0.6813</td>
+        <td>0.68453</td>
+    </tr>
+    <tr>
+        <td>Third place (unknown model/dataset)</td>
+        <td>0.59314</td>
+        <td>0.60649</td>
+    </tr>
+</table>
+
 ## Acknowledgement
 We thank the following works for the inspiration of our repo!
 1. 2024 IEEE BigData Cup: Building Extraction Generalization Challenge [link](https://www.kaggle.com/competitions/building-extraction-generalization-2024/overview)
