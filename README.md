@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1i_sEcacgnVJo56Z0CMe6flikIYKCPz4S?usp=sharing)
 
-#### By [Yi Jie WONG](https://github.com/yjwong1999) & [Yin Look Khor]() et al
+#### By [Yi Jie WONG](https://github.com/yjwong1999) & [Yin Look Khor](https://www.linkedin.com/in/yinloonkhor/) et al
 
 This code is part of our solution for 2024 IEEE BigData Cup: Building Extraction Generalization Challenge (BEGC).
 
