@@ -38,6 +38,87 @@ pip install opendatasets==0.1.22
 
 ## Results
 
+### Training with Different Instance Segmentation Model
+<table border="1" cellpadding="10" cellspacing="0">
+  <thead>
+    <tr>
+      <th rowspan="2">Model</th>
+      <th rowspan="2">Pretrained Weights</th>
+      <th rowspan="2">Batch Size</th>
+      <th rowspan="2">Params (M)</th>
+      <th rowspan="2">FLOPs (G)</th>
+      <th colspan="2">Public F1-Score</th>
+    </tr>
+    <tr>
+      <th>Conf = 0.50</th>
+      <th>Conf = 0.20</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>YOLOv8n-seg</td>
+      <td rowspan="4">DOTAv1 Aerial Detection</td>
+      <td>16</td>
+      <td>3.4</td>
+      <td>12.6</td>
+      <td>0.510</td>
+      <td>0.645</td>
+    </tr>
+    <tr>
+      <td>YOLOv8s-seg</td>
+      <td>16</td>
+      <td>11.8</td>
+      <td>42.6</td>
+      <td>0.535</td>
+      <td>0.654</td>
+    </tr>
+    <tr>
+      <td>YOLOv8m-seg</td>
+      <td>16</td>
+      <td>27.3</td>
+      <td>110.2</td>
+      <td>0.592</td>
+      <td>0.649</td>
+    </tr>
+    <tr>
+      <td>YOLOv8x-seg</td>      
+      <td>8</td>
+      <td>71.8</td>
+      <td>344.1</td>
+      <td>0.579</td>
+      <td>0.627</td>
+    </tr>
+    <tr>
+      <td>YOLOv9c-seg</td>
+      <td>COCO Segmentation</td>
+      <td>4</td>
+      <td>27.9</td>
+      <td>159.4</td>
+      <td>0.476</td>
+      <td>0.577</td>
+    </tr>
+    <tr>
+      <td>Mask R-CNN (MPViT-Tiny)</td>
+      <td>COCO Segmentation</td>
+      <td>4</td>
+      <td>17</td>
+      <td>196.0</td>
+      <td>-</td>
+      <td>0.596</td>
+    </tr>
+    <tr>
+      <td>EfficientNet-b0-YOLO-seg</td>
+      <td>ImageNet</td>
+      <td>4</td>
+      <td>6.4</td>
+      <td>12.5</td>
+      <td>-</td>
+      <td>0.560</td>
+    </tr>
+  </tbody>
+</table>
+
+
 ### Training with Different Dataset
 <table border="1">
     <tr>
