@@ -80,6 +80,8 @@ pip install opendatasets==0.1.22
     </tr>
 </table>
 
+Refer [our segmentation-guided diffusion model](https://github.com/yjwong1999/RSGuidedDiffusion) to see how we implement our diffusion augmentation pipeline.
+
 ### Inference with Different NMS IoU Threshold 
 <table border="1" cellpadding="10" cellspacing="0">
   <thead>
@@ -127,8 +129,6 @@ pip install opendatasets==0.1.22
   </tbody>
 </table>
 
-
-Refer [our segmentation-guided diffusion model](https://github.com/yjwong1999/RSGuidedDiffusion) to see how we implement our diffusion augmentation pipeline.
 
 ## Acknowledgement
 We thank the following works for the inspiration of our repo!
