@@ -78,6 +78,53 @@ pip install opendatasets==0.1.22
     </tr>
 </table>
 
+<table border="1" cellpadding="10" cellspacing="0">
+  <thead>
+    <tr>
+      <th rowspan="2">Dataset</th>
+      <th colspan="6">NMS IoU Threshold</th>
+    </tr>
+    <tr>
+      <th>0.70</th>
+      <th>0.75</th>
+      <th>0.80</th>
+      <th>0.85</th>
+      <th>0.90</th>
+      <th>0.95</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BEGC2024 + Redmond Dataset</td>
+      <td>0.672</td>
+      <td>0.677</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0.748</td>
+      <td>0.866</td>
+    </tr>
+    <tr>
+      <td>BEGC2024 + Las Vegas Dataset</td>
+      <td>0.703</td>
+      <td>0.693</td>
+      <td>0.686</td>
+      <td>0.721</td>
+      <td>0.766</td>
+      <td>0.897</td>
+    </tr>
+    <tr>
+      <td>BEGC2024 + Diffusion Augmentation</td>
+      <td>0.681</td>
+      <td>-</td>
+      <td>0.694</td>
+      <td>0.711</td>
+      <td>0.751</td>
+      <td>0.887</td>
+    </tr>
+  </tbody>
+</table>
+
+
 Refer [our segmentation-guided diffusion model](https://github.com/yjwong1999/RSGuidedDiffusion) to see how we implement our diffusion augmentation pipeline.
 
 ## Acknowledgement
