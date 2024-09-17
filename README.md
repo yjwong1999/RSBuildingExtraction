@@ -37,6 +37,7 @@ pip install opendatasets==0.1.22
 ```
 
 ## Data structure
+Since we uses YOLO as our segmentation model, we have to organize our dataset following the YOLO format. The `setup_data.py` code will automatically take the raw data from Kaggle and convert it into YOLO format.
 ```
 RSBuildingExtraction/mydata
 ├── train
