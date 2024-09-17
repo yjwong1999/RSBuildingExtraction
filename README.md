@@ -36,6 +36,17 @@ pip install click==8.1.7
 pip install opendatasets==0.1.22
 ```
 
+## Data structure
+```
+RSBuildingExtraction/mydata
+├── train
+│   └── images  
+│   └── labels  
+├── valid
+│   └── images  
+│   └── labels  
+```
+
 ## Results
 
 ### Training with Different Instance Segmentation Model
