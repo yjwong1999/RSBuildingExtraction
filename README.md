@@ -221,3 +221,23 @@ We thank the following works for the inspiration of our repo!
 2. Ultralytic YOLO [code](https://github.com/ultralytics/ultralytics)
 3. MPViT-based Mask RCNN [code](https://github.com/youngwanLEE/MPViT)
 4. COCO2YOLO format [original code](https://github.com/tw-yshuang/coco2yolo), [modified code](https://github.com/yjwong1999/coco2yolo)
+
+## Citations
+Please citate our paper if you use any of our model or dataset. Really appreciate it! 
+(The preprint will be released soon)
+
+<!-- 
+
+```
+@INPROCEEDINGS{10174362,
+  author={Wong, Yi Jie and Khor, Yin-Loon and Tham, Mau-Luen},
+  booktitle={}, 
+  title={}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={},
+  doi={}
+```
+
+-->
