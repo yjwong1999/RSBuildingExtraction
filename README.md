@@ -165,7 +165,7 @@ pip install opendatasets==0.1.22
   </tr>
 </table>
 
-Refer [our segmentation-guided diffusion model](https://github.com/yjwong1999/RSGuidedDiffusion) to see how we implement our diffusion augmentation pipeline.
+Note that the 2nd-place solution uses a bigger model (higher FLOPs) with an additional dataset to reach a high F1 score, whereas our diffusion augmentation pipeline allows our model (lower FLOPs) to achieve a surprisingly close F1 score without an additional dataset. Refer [our segmentation-guided diffusion model](https://github.com/yjwong1999/RSGuidedDiffusion) to see how we implement our diffusion augmentation pipeline.
 
 ### Inference with Different NMS IoU Threshold 
 <table border="1" cellpadding="10" cellspacing="0">
