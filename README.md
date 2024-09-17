@@ -37,7 +37,7 @@ pip install opendatasets==0.1.22
 ```
 
 ## Data structure
-Since we uses YOLO as our segmentation model, we have to organize our dataset following the YOLO format. The `setup_data.py` code will automatically take the raw data from Kaggle and convert it into YOLO format. The `mydata` directory will store the training data for our YOLO model. For the extra dataset (i.e. Microsoft Building Footprint dataset, diffusion augmentation), we also put these additional data into `mydata` directory.
+Since we uses YOLO as our segmentation model, we have to organize our dataset following the YOLO format. The `setup_data.py` code will automatically take the raw data from Kaggle and convert it into YOLO format. The `mydata` directory will store the training data for our YOLO model. We also put the additional dataset (i.e. Microsoft Building Footprint Dataset, diffusion augmentation) into `mydata`. 
 ```
 RSBuildingExtraction/mydata
 ├── train
