@@ -121,44 +121,48 @@ pip install opendatasets==0.1.22
 
 ### Training with Different Dataset
 <table border="1">
-    <tr>
-        <th rowspan=2></th>
-        <th colspan="2">F1 Score</th>
-    </tr>
-    <tr>
-        <th>Public</th>
-        <th>Private</th>
-    </tr>
-    <tr>
-        <td>BEGC2024 dataset</td>
-        <td>0.64926</td>
-        <td>0.66331</td>
-    </tr>
-    <tr>
-        <td>BEGC2024 dataset + Washington dataset</td>
-        <td>0.65961</td>
-        <td>0.67153</td>
-    </tr>
-    <tr>
-        <td>BEGC2024 dataset + Las Vegas dataset</td>
-        <td>0.68627</td>
-        <td>0.70326</td>
-    </tr>
-    <tr>
-        <td>BEGC2024 dataset + Diffusion Augmentation</td>
-        <td>0.67189</td>
-        <td>0.68096</td>
-    </tr>
-    <tr>
-        <td>Second place (unknown model/dataset)</td>
-        <td>0.6813</td>
-        <td>0.68453</td>
-    </tr>
-    <tr>
-        <td>Third place (unknown model/dataset)</td>
-        <td>0.59314</td>
-        <td>0.60649</td>
-    </tr>
+  <tr>
+    <th rowspan=2>Solution</th>
+    <th rowspan=2>FLOPS (G)</th>
+    <th colspan="2">F1-Score</th>
+  </tr>
+  <tr>
+    <td>Public</td>
+    <td>Private</td>
+  </tr>
+  <tr>
+    <td>YOLOv8m-seq + BEGC 2024</td>
+    <td rowspan=4>110.2</td>
+    <td>0.64926</td>
+    <td>0.66531</td>
+  </tr>
+  <tr>
+    <td>YOLOv8m-seq + BEGC 2024 + Redmond Dataset</td>
+    <td>0.65951</td>
+    <td>0.67133</td>
+  </tr>
+  <tr>
+    <td>YOLOv8m-seq + BEGC 2024 + Las Vegas Dataset</td>
+    <td>0.68627</td>
+    <td>0.70326</td>
+  </tr>
+  <tr>
+    <td>YOLOv8m-seq + BEGC 2024 + Diffusion Augmentation</td>
+    <td>0.67189</td>
+    <td>0.68096</td>
+  </tr>
+  <tr>
+    <td>2nd place (RTMDet-x + Alabama Buildings Segmentation Dataset)</td>
+    <td>141.7</td>
+    <td>0.6813</td>
+    <td>0.68453</td>
+  </tr>
+  <tr>
+    <td>3rd Place (Custom Mask-RCNN + No extra Dataset)</td>
+    <td>124.1</td>
+    <td>0.59314</td>
+    <td>0.60649</td>
+  </tr>
 </table>
 
 Refer [our segmentation-guided diffusion model](https://github.com/yjwong1999/RSGuidedDiffusion) to see how we implement our diffusion augmentation pipeline.
