@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1i_sEcacgnVJo56Z0CMe6flikIYKCPz4S?usp=sharing)
 
-#### By [Yi Jie WONG](https://github.com/yjwong1999) & [Yin-Loon Khor](https://www.linkedin.com/in/yinloonkhor/) et al
+#### Byzz [Yi Jie WONG](https://github.com/yjwong1999) & [Yin-Loon Khor](https://www.linkedin.com/in/yinloonkhor/) et al
 
 This code is part of our solution for [2024 IEEE BigData Cup: Building Extraction Generalization Challenge (IEEE BEGC2024)](https://www.kaggle.com/competitions/building-extraction-generalization-2024/overview). Specifically, this repository provides the code to extract additional building footprint data from the Microsoft Building Footprint (BF) dataset for Redmond, Washington, and Las Vegas, Nevada. We use the extracted dataset to train our YOLOv8-based instance segmentation model, along with the training set provided by the IEEE BEGC2024 dataset. Results show that YOLOv8 trained on BEGC2024 with the additional dataset achieves a significant F1-score improvement compared to training on the BEGC2024 training set alone. Our approach ranked 1st globally in the IEEE Big Data Cup 2024 - BEGC2024 challenge! 🏅🎉🥳
 
@@ -239,7 +239,7 @@ We thank the following works for the inspiration of our repo!
 
 ## Cite this repository
 
-Our paper has been accepted by IEEE BigData 2024! Please cite our paper if this repo helps your research. The preprint is available [here](https://doi.org/10.36227/techrxiv.173091008.80781383/v1)
+Our paper has been accepted by IEEE BigData 2024! Please cite our paper if this repo helps your research. The preprint is available [here](https://doi.org/10.36227/techrxiv.173091008.80781383/v1). The official paper is available [here](https://doi.org/10.1109/BigData62323.2024.10825702)
 
 ```
 @InProceedings{Wong2024,
